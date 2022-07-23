@@ -3,6 +3,7 @@ package com.example.stringoperationdemo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -21,5 +22,15 @@ public class MainActivity extends AppCompatActivity {
         btSplitString=findViewById(R.id.bt_split_string);
         btGetUrlString=findViewById(R.id.bt_get_url_string);
         tvOutput=findViewById(R.id.tv_output);
+
+        btRemoveString.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String s="Channel Name : Android Application";
+                tvOutput.setText(s);
+                String removedString=s.replaceAll("Channel Name : ","");
+                tvOutput.setText(removedString);
+            }
+        });
     }
 }
