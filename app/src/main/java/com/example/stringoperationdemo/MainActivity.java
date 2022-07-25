@@ -57,5 +57,12 @@ public class MainActivity extends AppCompatActivity {
                 tvOutput.setText(String.format("%s\n%s", s1, s2));
             }
         });
+
+        btGetUrlString.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }
