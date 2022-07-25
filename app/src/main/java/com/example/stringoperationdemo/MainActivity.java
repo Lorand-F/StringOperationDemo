@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btSplitString=findViewById(R.id.bt_split_string);
         btGetUrlString=findViewById(R.id.bt_get_url_string);
         tvOutputBefore=findViewById(R.id.tv_output_before);
-        tvOutput=findViewById(R.id.tv_output);
+        tvOutput=findViewById(R.id.tv_output_after);
 
         btRemoveString.setOnClickListener(new View.OnClickListener() {
             @Override

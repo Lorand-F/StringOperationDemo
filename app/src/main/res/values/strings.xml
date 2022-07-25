@@ -4,4 +4,6 @@
     <string name="remove_special_character">Remove special character</string>
     <string name="split_string">Split string</string>
     <string name="get_url_string">Get url string</string>
+    <string name="text_before_by_changed">TEXT BEFORE TO BY CHANGED</string>
+    <string name="text_after_eas_changed">TEXT AFTER WAS CHANGED</string>
 </resources>
