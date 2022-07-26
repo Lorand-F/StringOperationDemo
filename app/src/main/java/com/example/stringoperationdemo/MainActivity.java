@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         btGetUrlString.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                tvOutputBefore.setText(R.string.in_progress);
+                tvOutput.setText(R.string.in_progress);
             }
         });
     }

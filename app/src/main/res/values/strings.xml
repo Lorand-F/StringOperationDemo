@@ -6,4 +6,5 @@
     <string name="get_url_string">Get url string</string>
     <string name="text_before_by_changed">TEXT BEFORE TO BY CHANGED</string>
     <string name="text_after_eas_changed">TEXT AFTER WAS CHANGED</string>
+    <string name="in_progress">Functionality for the moment in progress...\nSorry for this inconvenient! Thanks!</string>
 </resources>
